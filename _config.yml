@@ -7,22 +7,22 @@ highlighter:      pygments
 # relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            BLOG
+tagline:          "0319easy의 블로그입니당"
+description:      '쥬니어 개발자의 블로그. 공부한 것을 기록합니다'
 url:              "https://0319easy.github.io/"
 baseurl:          ""
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           '0319easy'
+  # url:            https://twitter.com/mdo
 
-paginate:         5
+paginate:         10
 
 # Custom vars
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/0319easy
 
 remote_them:      poole/hyde
