@@ -10,23 +10,29 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">all posts</a>
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}about">✨ about</a>
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      {% assign pages_list = site.pages %}
+      <!-- {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "category" %}
             <a class="category-link sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
+
+      <!-- 목차 -->
+      <a class="category-link sidebar-nav-item{% if page.url == '/book_review' %} active{% endif %}" href="{{ site.url }}book_review">📖 book_review</a>
+      <a class="category-link sidebar-nav-item{% if page.url == '/omg' %} active{% endif %}" href="{{ site.url }}omg">⁉️ 이게외않되</a>
+      <a class="category-link sidebar-nav-item{% if page.url == '/etc' %} active{% endif %}" href="{{ site.url }}etc">💻 _:(´ㅁ`」 ∠):_</a>
 
       <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">github</a>
       <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
 

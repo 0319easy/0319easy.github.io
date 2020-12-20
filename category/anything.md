@@ -1,5 +1,5 @@
 ---
 layout: category
 title : anything
-permalink: /anything
+permalink: '/anything'
 ---
