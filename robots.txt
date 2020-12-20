@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://0319easy.github.io/sitemap.xml
