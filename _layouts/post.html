@@ -17,7 +17,8 @@ layout: default
         <h3>
           <a href="{{ post.url }}">
             {{ post.title }}
-            <small>{{ post.date | date_to_xmlscema }}</small>
+            <small style="color: black;">| {{ post.categories }}</small>
+            <small>{{ post.date | date_to_string }}</small>
           </a>
         </h3>
       </li>
