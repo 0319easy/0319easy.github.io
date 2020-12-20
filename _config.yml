@@ -2,20 +2,20 @@
 # markdown:         redcarpet
 highlighter:      rouge
 
-# Permalinks
-# permalink:        pretty
-# relative_permalinks: true
-
-# Setup
 title:            BLOG
 tagline:          "0319easy의 블로그입니당"
 description:      '쥬니어 개발자의 블로그. 공부한 것을 기록합니다'
 url:              "https://0319easy.github.io/"
 baseurl:          ""
+github_username:  0319easy
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 
 author:
   name:           '0319easy'
-  # url:            https://twitter.com/mdo
 
 paginate:         10
 
