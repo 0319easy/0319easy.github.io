@@ -12,12 +12,18 @@ github_username:  0319easy
 # Build settings
 theme: minima
 plugins:
+  - jekyll-paginate
+  - jekyll-category-pages
+
+gem:
   - jekyll-feed
+
 
 author:
   name:           '0319easy'
 
 paginate:         10
+paginate_path:    "/page:num"
 
 # Custom vars
 version:          2.1.0
@@ -26,3 +32,6 @@ github:
   repo:           https://github.com/0319easy
 
 remote_them:      poole/hyde
+
+category_path: "category"
+category_layout: "category.html"
