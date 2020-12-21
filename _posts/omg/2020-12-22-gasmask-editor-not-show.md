@@ -1,6 +1,6 @@
 ---
 layout  : post
-title   : '[gas mask\] 아이콘 클릭시 editor 창이 안 보이는 현상'
+title   : '[gas mask] 아이콘 클릭시 editor 창이 안 보이는 현상'
 categories  : ['omg']
 date    : 2020-12-22T01:21:023
 ---
