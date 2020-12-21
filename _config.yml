@@ -35,3 +35,5 @@ remote_them:      poole/hyde
 
 category_path: "category"
 category_layout: "category.html"
+
+timezone: ROK

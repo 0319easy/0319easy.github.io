@@ -16,7 +16,8 @@ title: all posts
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_xmlscema }}</span>
+    <!-- <span style="color: black;">{{ post.categories }}</span> -->
+    <span class="post-date">{{ post.categories }} | {{ post.date | date_to_xmlscema }}</span>
 
     {{ post.content }}
   </div>
